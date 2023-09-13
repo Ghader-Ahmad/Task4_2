@@ -1,0 +1,187 @@
+
+.parttwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 30px;
+}
+
+.part3{
+    display: flex;
+    align-items: center;
+}
+
+.Leaders{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.button{
+    width: 180px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: rgb(0, 174, 255);
+    border: 1px solid rgb(0, 174, 255);
+    color: white;
+}
+
+.photo{
+    background: rgba(1, 81, 208, 0.75);
+    height: 100vh;
+}
+
+.navphoto{
+    background: url(./../imges/eduction\ is\ the\ mother.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.eductionphoto{
+    background: url(../../assets/imges/with-children1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cardCategory{
+    max-width: 300px;
+    height: 85px;
+    background-color: rgb(243, 247, 253);
+    border: 1px solid rgb(243, 247, 253);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    margin-left: 60px;
+    background-color: white;
+    color: blue;
+}
+
+h1,h2,h3,.card-title{
+    font-weight: bold;
+}
+
+h2,h5,h4{
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Browser{
+    margin-top: 100px;
+    max-width:  100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Browser .part1{
+    max-width: 339px;
+    margin: 100px;
+}
+
+.Browser .part1 .icons{
+    color: blue;
+    padding: 5px;
+}
+
+.Browser .part1 button{
+    width: 148px;
+    height: 50px;
+    background-color: blue;
+    margin: 10px;
+    border-radius: 50px;
+    border: 1px solid blue;
+}
+
+.Browser div img{
+    max-width:  300px;
+    position: relative;
+    bottom: 100px;
+}
+
+.eduction , .Course{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.eduction .BestEduction, .BestCourse{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 570px;
+}
+
+.eduction .row .music{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.row .card .course{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    box-shadow: 0px 0px 11px -2px rgb(202, 198, 198);
+}
+
+.pic{
+    background-color:  rgb(248, 249, 250);
+}
+
+footer{
+    background-color: #0d6efd;
+    max-height: 1000px;
+    width: 100%;
+}
+
+footer .icons{
+    color: black;
+    font-size: 20px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.curs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curss{
+    display: flex;
+    flex-direction: column;
+}
+
+.cursphoto{
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.cursol{
+    background-color:  rgb(248, 249, 250);
+    width:  100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
